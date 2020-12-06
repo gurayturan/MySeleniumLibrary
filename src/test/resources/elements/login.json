@@ -1,0 +1,93 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "common",
+        "logo": "https://www.example.com/logo.jpg",
+        "parent": "",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "input box": "//*[@class='a4bIc']/input"
+        },
+        {
+          "post_id": "0123456789"
+        },
+        {
+          "post_id": "0123456789"
+        },
+        {
+          "post_id": "0123456789"
+        }
+      ]
+    },
+    {
+      "pageInfo": {
+        "pageName": "Homepage",
+        "logo": "https://www.example.com/logo.jpg",
+        "parent": "common",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+
+        },
+        {
+          "post_id": "0123456789"
+        },
+        {
+          "post_id": "0123456789"
+        },
+        {
+          "post_id": "0123456789"
+        }
+      ]
+    },
+    {
+      "pageInfo": {
+        "pageName": "login",
+        "logo": "https://www.example.com/logo.jpg",
+        "parent": "common",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+            "email create input box" : "#email_create",
+            "state combo box":"#uniform-id_state",
+            "create account button": "#SubmitCreate"
+        },
+        {
+          "post_id": "0123456789"
+        },
+        {
+          "post_id": "0123456789"
+        },
+        {
+          "post_id": "0123456789"
+        }
+      ]
+    },
+    {
+    "pageInfo": {
+      "pageName": "Loginpage",
+      "logo": "https://www.example.com/logo.jpg",
+      "parent": "common"
+    },
+    "elements": [
+      {
+        "post_id": "0123456789"
+      },
+      {
+        "post_id": "0123456789"
+      },
+      {
+        "post_id": "0123456789"
+      },
+      {
+        "post_id": "0123456789"
+      }
+    ]
+    }
+  ]
+}

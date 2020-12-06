@@ -1,0 +1,9 @@
+{
+  "local": {
+
+  },
+  "remote": {
+      "nodeUrl": "http://192.168.1.26:10903/wd/hub",
+      "nodeUrl2": "http://192.168.1.24:10904/wd/hub"
+  }
+}
